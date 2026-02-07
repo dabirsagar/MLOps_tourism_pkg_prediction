@@ -52,6 +52,6 @@ for file in ["Xtrain.csv", "Xtest.csv", "ytrain.csv", "ytest.csv"]:
     api.upload_file(
         path_or_fileobj=file,
         path_in_repo=file,
-        repo_id="dabirsagar/mlops-tourism-prediction",
+        repo_id="dabirsagar/tourism-dataset",
         repo_type="dataset",
     )
